@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.dishbreak.statusdogs</string>
+	<key>category</key>
+	<string>Internet</string>
+	<key>connections</key>
+	<dict>
+		<key>DD2B56AD-2D2E-444C-8E75-1A1DB2E5053F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>11EC6063-15D0-4AB4-87D9-D5A4328AF8F4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Vishal Kotcherlakota</string>
+	<key>description</key>
+	<string>Quick links out to Mike Lee's HTTP Status Dogs site.</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>HTTP Status Dogs</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://httpstatusdogs.com/{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>11EC6063-15D0-4AB4-87D9-D5A4328AF8F4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<true/>
+				<key>items</key>
+				<string>[{"title":"100 - Continue","arg":"100","subtitle":"Continue"},{"title":"200 - OK","arg":"200","subtitle":"OK"},{"title":"201 - Created","arg":"201","subtitle":"Created"},{"title":"202 - Accepted","arg":"202","subtitle":"Accepted"},{"title":"203 - Non-Authorative Information","arg":"203","subtitle":"Non-Authorative Information"},{"title":"204 - No Content","arg":"204","subtitle":"No Content"},{"title":"206 - Partial Content","arg":"206","subtitle":"Partial Content"},{"title":"207 - Mult-Status","arg":"207","subtitle":"Mult-Status"},{"title":"208 - Already Reported","arg":"208","subtitle":"Already Reported"},{"title":"226 - IM Used","arg":"226","subtitle":"IM Used"},{"title":"300 - Multiple Choices","arg":"300","subtitle":"Multiple Choices"},{"title":"301 - Moved Permanently","arg":"301","subtitle":"Moved Permanently"},{"title":"302 - Found","arg":"302","subtitle":"Found"},{"title":"303 - See Other","arg":"303","subtitle":"See Other"},{"title":"304 - Not Modified","arg":"304","subtitle":"Not Modified"},{"title":"305 - Use Proxy","arg":"305","subtitle":"Use Proxy"},{"title":"306 - Switch Proxy","arg":"306","subtitle":"Switch Proxy"},{"title":"307 - Temporary Redirect","arg":"307","subtitle":"Temporary Redirect"},{"title":"308 - Permanent Redirext","arg":"308","subtitle":"Permanent Redirext"},{"title":"400 - Bad Request","arg":"400","subtitle":"Bad Request"},{"title":"401 - Unauthorized","arg":"401","subtitle":"Unauthorized"},{"title":"402 - Payment Required","arg":"402","subtitle":"Payment Required"},{"title":"403 - Forbidden","arg":"403","subtitle":"Forbidden"},{"title":"406 - Not Acceptable","arg":"406","subtitle":"Not Acceptable"},{"title":"407 - Proxy Authentication Required","arg":"407","subtitle":"Proxy Authentication Required"},{"title":"408 - Request Timeout","arg":"408","subtitle":"Request Timeout"},{"title":"409 - Conflict","arg":"409","subtitle":"Conflict"},{"title":"410 - Gone","arg":"410","subtitle":"Gone"},{"title":"411 - Length","arg":"411","subtitle":"Length"},{"title":"412 - Precondition Failed","arg":"412","subtitle":"Precondition Failed"},{"title":"413 - Request Entity Too Large","arg":"413","subtitle":"Request Entity Too Large"},{"title":"414 - Requesrt-URI Too Long","arg":"414","subtitle":"Requesrt-URI Too Long"},{"title":"416 - Requested Range Not Satisfiable","arg":"416","subtitle":"Requested Range Not Satisfiable"},{"title":"417 - Expectation Failed","arg":"417","subtitle":"Expectation Failed"},{"title":"418 - I'm a teapot","arg":"418","subtitle":"I'm a teapot"},{"title":"420 - Enhance Your Calm","arg":"420","subtitle":"Enhance Your Calm"},{"title":"422 - Unprocessable Entity","arg":"422","subtitle":"Unprocessable Entity"},{"title":"423 - Locked","arg":"423","subtitle":"Locked"},{"title":"424 - Failed Dependency","arg":"424","subtitle":"Failed Dependency"},{"title":"425 - Unordered Collection","arg":"425","subtitle":"Unordered Collection"},{"title":"426 - Upgrade Required","arg":"426","subtitle":"Upgrade Required"},{"title":"429 - Too Many Requests","arg":"429","subtitle":"Too Many Requests"},{"title":"431 - Request Header Fields Too Large","arg":"431","subtitle":"Request Header Fields Too Large"},{"title":"451 - Unavailable For Legal Reasons","arg":"451","subtitle":"Unavailable For Legal Reasons"},{"title":"494 - Request Header Too Large","arg":"494","subtitle":"Request Header Too Large"},{"title":"500 - Internal Server Error","arg":"500","subtitle":"Internal Server Error"},{"title":"501 - Not Implemented","arg":"501","subtitle":"Not Implemented"},{"title":"502 - Bad Gateway","arg":"502","subtitle":"Bad Gateway"},{"title":"503 - Service Unavailable","arg":"503","subtitle":"Service Unavailable"},{"title":"504 - Gateway Timeout","arg":"504","subtitle":"Gateway Timeout"},{"title":"506 - Variant Also Negotiates","arg":"506","subtitle":"Variant Also Negotiates"},{"title":"507 - Insufficient Storage","arg":"507","subtitle":"Insufficient Storage"},{"title":"508 - Loop Detected","arg":"508","subtitle":"Loop Detected"},{"title":"509 - Bandwidth Limit Exceeded","arg":"509","subtitle":"Bandwidth Limit Exceeded"},{"title":"510 - Not Extended","arg":"510","subtitle":"Not Extended"}]</string>
+				<key>keyword</key>
+				<string>statusdogs</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Look up codes on HTTP Status Dogs</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>DD2B56AD-2D2E-444C-8E75-1A1DB2E5053F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>11EC6063-15D0-4AB4-87D9-D5A4328AF8F4</key>
+		<dict>
+			<key>xpos</key>
+			<integer>470</integer>
+			<key>ypos</key>
+			<integer>170</integer>
+		</dict>
+		<key>DD2B56AD-2D2E-444C-8E75-1A1DB2E5053F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>230</integer>
+			<key>ypos</key>
+			<integer>170</integer>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>kotcherlakota.org</string>
+</dict>
+</plist>
